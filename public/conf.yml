@@ -75,17 +75,6 @@ sections:
         icon: fas fa-bug
         url: https://github.com/Lissy93/dashy/issues
         id: 6_1481_issues
-  - name: The Things That Do the Things
-    icon: fas fa-exclamation
-    items:
-      - title: KBA: Preparing Macs for Employees
-        icon: fas fa-apple
-        url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
-      - title: Mosyle Enroll URL
-        icon: favicon
-        url: https://join.mosyle.com/NQCXSZ
-    - title: OneDrive Sync Scripts
-      path: https://macs.wku.edu/odss.zip
   - name: Silly Things
     icon: fas fa-face-laugh-squint
     items:
