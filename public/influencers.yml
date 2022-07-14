@@ -25,3 +25,21 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://appleshare.it/index.xml
+- name: AppleAtWork RSS
+  icon: https://9to5mac.com/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://9to5mac.com/guides/apple-at-work/feed/
+- name: Tom Bridge Posts
+  icon: https://s0.wp.com/i/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://tombridge.com/feed/
+- name: ScriptingOSX RSS
+  icon: https://i0.wp.com/scriptingosx.com/wp-content/uploads/2019/11/cropped-NewShebang-1.png
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://scriptingosx.com/feed/
