@@ -1,18 +1,14 @@
 appConfig:
   theme: one-dark
-  layout: auto
+  layout: horizontal
   iconSize: medium
   language: en
 pageInfo:
-  title: Mac Links
-  description: Useful Links for WKU MacManagers
+  title: By the Power of Greyskull
+  description: Useful Things for WKU MacManagers
   navLinks:
     - title: Nexus
       path: https://tssapps.wku.edu/td_data
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
-    - title: Documentation
-      path: https://dashy.to/docs
   footerText: ''
 sections:
   - name: The Things That Do the Things
@@ -26,9 +22,16 @@ sections:
         icon: fas fa-arrow-down
         url: https://join.mosyle.com/NQCXSZ
         target: newtab
-      - title: OneDrive Sync Scripts
+      - title: OneDrive Scripts
         icon: fas fa-cloud
         url: https://macs.wku.edu/odss.zip
+      - title: Office Reset Utility
+        icon: fas fa-arrow-rotate-left
+        url: https://office-reset.com/
+      - title: Self-Enroll
+        description: This will put a Mac in Mosyle without making any noticeable changes to the user
+        icon: fas fa-user-plus
+        url: https://join.mosyle.com/PTQO13
   - name: Tweets
     icon: fas fa-twitter
     widgets:
@@ -37,11 +40,9 @@ sections:
         options:
           scriptSrc: https://platform.twitter.com/widgets.js
           html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500"
+            <a class="twitter-timeline" data-height="500"
             data-theme="dark"
-            href="https://twitter.com/bigdoodr/lists/1547680734566965248?ref_src=twsrc%5Etfw">Tweets
-            by dorktopia_ky</a>
-        id: 0_636_embed
+            href="https://twitter.com/bigdoodr/lists/1547680734566965248?ref_src=twsrc%5Etfw">Influencer Tweets</a>
 pages:
 - name: Apple Influencers
   path: 'influencers.yml'
