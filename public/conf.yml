@@ -139,3 +139,6 @@ sections:
         icon: favicon
         url: https://www.meh.com
         id: 2_840_meh
+pages:
+- name: Apple Influencers
+  path: 'influencers.yml'
