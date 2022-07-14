@@ -25,3 +25,38 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://appleshare.it/index.xml
+- name: Apple@Work RSS
+  icon: https://9to5mac.com/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://9to5mac.com/guides/apple-at-work/feed/
+- name: Tom Bridge Posts
+  icon: https://s0.wp.com/i/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://tombridge.com/feed/
+- name: ScriptingOSX RSS
+  icon: https://i0.wp.com/scriptingosx.com/wp-content/uploads/2019/11/cropped-NewShebang-1.png?w=248&ssl=1
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://scriptingosx.com/feed/
+- name: Adam Argyle Posts
+  icon: https://s0.wp.com/i/favicon.ico
+  widgets:
+  -type: rss-feed
+    options:
+      rssUrl: https://adamargyle.net/feed/
+- name: Tweets
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/bigdoodr/lists/1547680734566965248?ref_src=twsrc%5Etfw"></a>
