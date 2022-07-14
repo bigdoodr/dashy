@@ -19,7 +19,7 @@ sections:
     icon: fas fa-exclamation
     items:
       - title: KBA Preparing Macs for Employees
-        icon: fa-brands fa-apple
+        icon: fab fa-apple
         url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
       - title: Mosyle Enroll URL
         description: Where all new and refreshed Macs should go
