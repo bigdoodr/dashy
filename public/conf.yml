@@ -76,6 +76,7 @@ sections:
         url: https://github.com/Lissy93/dashy/issues
         id: 6_1481_issues
   - name: The Things That Do the Things
+    icon: fas fa-exclamation
     items:
       - title: KBA: Preparing Macs for Employees
         icon: fas fa-apple
