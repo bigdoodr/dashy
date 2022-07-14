@@ -1,47 +1,135 @@
----
-# Page meta info, like heading, footer text and nav links
-pageInfo:
-  title: Dashy
-  description: Welcome to your new dashboard!
-  navLinks:
-  - title: GitHub
-    path: https://github.com/Lissy93/dashy
-  - title: Documentation
-    path: https://dashy.to/docs
-
-# Optional app settings and configuration
 appConfig:
-  theme: colorful
-
-# Main content - An array of sections, each containing an array of items
+  theme: fallout
+  layout: auto
+  iconSize: medium
+  language: en
+pageInfo:
+  title: Casey's Things
+  description: Here's what you think is important!
+  navLinks:
+    - title: GitHub
+      path: https://github.com/Lissy93/dashy
+    - title: Documentation
+      path: https://dashy.to/docs
+  footerText: ''
 sections:
-- name: Getting Started
-  icon: fas fa-rocket
-  items:
-  - title: Dashy Live
-    description: Development a project management links for Dashy
-    icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
-    url: https://live.dashy.to/
-    target: newtab
-  - title: GitHub
-    description: Source Code, Issues and Pull Requests
-    url: https://github.com/lissy93/dashy
-    icon: favicon
-  - title: Docs
-    description: Configuring & Usage Documentation
-    provider: Dashy.to
-    icon: far fa-book
-    url: https://dashy.to/docs
-  - title: Showcase
-    description: See how others are using Dashy
-    url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
-    icon: far fa-grin-hearts
-  - title: Config Guide
-    description: See full list of configuration options
-    url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
-    icon: fas fa-wrench
-  - title: Support
-    description: Get help with Dashy, raise a bug, or get in contact
-    url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
-    icon: far fa-hands-helping
-  
+  - name: Today at a Glance
+    icon: fas fa-calendar
+    widgets:
+      - type: clock
+        options:
+          customCityName: Bowling Green
+          format: en-US
+          hideDate: false
+        id: 0_1505_clock
+      - type: weather
+        options:
+          apiKey: 90cc9f06bc4e014c4027ffccfc58f6d7
+          city: Eastland Park, US
+          units: imperial
+          hideDetails: false
+        id: 1_1505_weather
+      - type: iframe
+        options:
+          url: https://www.meh.com
+        id: 2_1505_iframe
+  - name: Getting Started
+    icon: fas fa-rocket
+    items:
+      - title: Dashy Live
+        description: Development a project management links for Dashy
+        icon: https://i.ibb.co/qWWpD0v/astro-dab-128.png
+        url: https://live.dashy.to/
+        target: newtab
+        id: 0_1481_dashylive
+      - title: GitHub
+        description: Source Code, Issues and Pull Requests
+        url: https://github.com/lissy93/dashy
+        icon: favicon
+        id: 1_1481_github
+      - title: Docs
+        description: Configuring & Usage Documentation
+        provider: Dashy.to
+        icon: far fa-book
+        url: https://dashy.to/docs
+        id: 2_1481_docs
+      - title: Showcase
+        description: See how others are using Dashy
+        url: https://github.com/Lissy93/dashy/blob/master/docs/showcase.md
+        icon: far fa-grin-hearts
+        id: 3_1481_showcase
+      - title: Config Guide
+        description: See full list of configuration options
+        url: https://github.com/Lissy93/dashy/blob/master/docs/configuring.md
+        icon: fas fa-wrench
+        id: 4_1481_configguide
+      - title: Support
+        description: Get help with Dashy, raise a bug, or get in contact
+        url: https://github.com/Lissy93/dashy/blob/master/.github/SUPPORT.md
+        icon: far fa-hands-helping
+        id: 5_1481_support
+      - title: Issues
+        description: View open issues, or raise a new one
+        icon: fas fa-bug
+        url: https://github.com/Lissy93/dashy/issues
+        id: 6_1481_issues
+  - name: Local Services
+    items:
+      - title: Sab
+        icon: favicon
+        url: http://192.168.12.218:8080/
+        id: 0_1359_sab
+      - title: Movies
+        icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
+        url: http://192.168.12.218:7878/
+        id: 1_1359_movies
+  - name: Silly Things
+    icon: fas fa-face-laugh-squint
+    items:
+      - title: Calvin and Hobbes
+        icon: favicon
+        url: https://www.gocomics.com/calvinandhobbes
+        id: 0_1178_calvinandhobbes
+    widgets:
+      - type: joke
+        options:
+          safeMode: false
+          language: en
+          category: Pun
+        id: 0_1178_joke
+      - type: xkcd-comic
+        options:
+          comic: latest
+        id: 1_1178_xkcdcomic
+      - type: iframe
+        options:
+          url: https://www.catscafecomics.com
+        id: 2_1178_iframe
+  - name: Tweets
+    icon: fas fa-twitter
+    widgets:
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/dorktopia_ky?ref_src=twsrc%5Etfw">Tweets
+            by dorktopia_ky</a>
+        id: 0_636_embed
+  - name: Shopping
+    icon: fas fa-bag
+    items:
+      - title: Google Shopping List
+        icon: favicon
+        url: https://shoppinglist.google.com
+        id: 0_840_googleshoppinglist
+      - title: Woot
+        icon: favicon
+        url: https://www.woot.com
+        id: 1_840_woot
+      - title: meh
+        icon: favicon
+        url: https://www.meh.com
+        id: 2_840_meh
