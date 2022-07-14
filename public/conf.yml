@@ -22,8 +22,10 @@ sections:
         icon: fas fa-apple
         url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
       - title: Mosyle Enroll URL
-        icon: favicon
+        description: Where all new and refreshed Macs should go
+        icon: fas fa-arrow-down-big-small
         url: https://join.mosyle.com/NQCXSZ
+        target: newtab
       - title: OneDrive Sync Scripts
         url: https://macs.wku.edu/odss.zip
   - name: Today at a Glance
