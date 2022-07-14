@@ -5,7 +5,7 @@ appConfig:
   language: en
 pageInfo:
   title: Mac Links
-  description: seful Links for WKU MacManagers
+  description: Useful Links for WKU MacManagers
   navLinks:
     - title: Nexus
       path: https://tssapps.wku.edu/td_data
@@ -19,11 +19,11 @@ sections:
     icon: fas fa-exclamation
     items:
       - title: KBA Preparing Macs for Employees
-        icon: fas fa-apple
+        icon: far fa-book
         url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
       - title: Mosyle Enroll URL
         description: Where all new and refreshed Macs should go
-        icon: fas fa-arrow-down-big-small
+        icon: far fa-arrow-down-big-small
         url: https://join.mosyle.com/NQCXSZ
         target: newtab
       - title: OneDrive Sync Scripts
