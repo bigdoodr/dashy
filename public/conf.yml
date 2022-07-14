@@ -1,12 +1,14 @@
 appConfig:
-  theme: fallout
+  theme: one-dark
   layout: auto
   iconSize: medium
   language: en
 pageInfo:
-  title: Casey's Things
-  description: Here's what you think is important!
+  title: Mac Links
+  description: seful Links for WKU MacManagers
   navLinks:
+    - title: Nexus
+      path: https://tssapps.wku.edu/td_data
     - title: GitHub
       path: https://github.com/Lissy93/dashy
     - title: Documentation
@@ -73,16 +75,16 @@ sections:
         icon: fas fa-bug
         url: https://github.com/Lissy93/dashy/issues
         id: 6_1481_issues
-  - name: Local Services
+  - name: The Things That Do the Things
     items:
-      - title: Sab
+      - title: KBA: Preparing Macs for Employees
+        icon: fas fa-apple
+        url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
+      - title: Mosyle Enroll URL
         icon: favicon
-        url: http://192.168.12.218:8080/
-        id: 0_1359_sab
-      - title: Movies
-        icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
-        url: http://192.168.12.218:7878/
-        id: 1_1359_movies
+        url: https://join.mosyle.com/NQCXSZ
+    - title: OneDrive Sync Scripts
+      path: https://macs.wku.edu/odss.zip
   - name: Silly Things
     icon: fas fa-face-laugh-squint
     items:
