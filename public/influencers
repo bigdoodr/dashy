@@ -1,0 +1,27 @@
+---
+# Page meta info, like heading, footer text and nav links
+pageInfo:
+  title: Apple Influencers
+  description: The latest tweets, blogs, etc. from the industry pacesetters
+  navLinks:
+  - title: Home
+    path: /
+
+# Optional app settings and configuration
+appConfig:
+  theme: colorful
+
+# Main content - An array of sections, each containing an array of items
+sections:
+- name: EclecticLight RSS
+  icon: https://eclecticlightdotcom.files.wordpress.com/2015/01/eclecticlightlogo-e1421784280911.png?w=103
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://eclecticlight.co/category/macs/feed/
+- name: AppleShare RSS
+  icon: https://appleshare.it/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://appleshare.it/index.xml
