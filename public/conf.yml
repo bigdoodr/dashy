@@ -15,6 +15,17 @@ pageInfo:
       path: https://dashy.to/docs
   footerText: ''
 sections:
+  - name: The Things That Do the Things
+    icon: fas fa-exclamation
+    items:
+      - title: KBA: Preparing Macs for Employees
+        icon: fas fa-apple
+        url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
+      - title: Mosyle Enroll URL
+        icon: favicon
+        url: https://join.mosyle.com/NQCXSZ
+      - title: OneDrive Sync Scripts
+        url: https://macs.wku.edu/odss.zip
   - name: Today at a Glance
     icon: fas fa-calendar
     widgets:
