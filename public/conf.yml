@@ -1,7 +1,8 @@
 appConfig:
   theme: fallout
-  layout: auto
+  layout: horizontal
   iconSize: medium
+  startingView: workspace
   language: en
 pageInfo:
   title: Casey's Things
@@ -15,6 +16,12 @@ pageInfo:
 sections:
   - name: Today at a Glance
     icon: fas fa-calendar
+    items:
+      - title: Nest Renew
+        icon: fab fa-google
+        url: >-
+          https://nestrenew.google.com/u/0/renew/portal/ad28379b-1ffc-4711-be75-e12f850c8a5c
+        id: 0_1505_nestrenew
     widgets:
       - type: clock
         options:
@@ -73,18 +80,8 @@ sections:
         icon: fas fa-bug
         url: https://github.com/Lissy93/dashy/issues
         id: 6_1481_issues
-  - name: Local Services
-    items:
-      - title: Sab
-        icon: favicon
-        url: http://192.168.12.218:8080/
-        id: 0_1359_sab
-      - title: Movies
-        icon: https://i.ibb.co/710B3Yc/space-invader-x256.png
-        url: http://192.168.12.218:7878/
-        id: 1_1359_movies
   - name: Silly Things
-    icon: fas fa-face-laugh-squint
+    icon: fas fa-laugh-squint
     items:
       - title: Calvin and Hobbes
         icon: favicon
@@ -106,7 +103,7 @@ sections:
           url: https://www.catscafecomics.com
         id: 2_1178_iframe
   - name: Tweets
-    icon: fas fa-twitter
+    icon: fab fa-twitter
     widgets:
       - type: embed
         updateInterval: 3600
@@ -119,7 +116,7 @@ sections:
             by dorktopia_ky</a>
         id: 0_636_embed
   - name: Shopping
-    icon: fas fa-bag
+    icon: fas fa-wallet
     items:
       - title: Google Shopping List
         icon: favicon
