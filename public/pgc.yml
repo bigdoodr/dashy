@@ -1,0 +1,31 @@
+appConfig:
+  theme: fallout
+  layout: horizontal
+  iconSize: medium
+  language: en
+pageInfo:
+  title: Phoenix Gaming Club
+  description: Wizards n Shit!
+  navLinks:
+    - title: Charles's Blog
+      path: https://charles-plemons.blog.wku.edu/
+    - title: Blog Search
+      path: https://tssapps.wku.edu/playground/cwp/gms/stats_blog_search.cfm
+    - title: Campaign Resources
+      path: https://people.wku.edu/charles.plemons/pathfinder/chronoshift/spelljammer/campaign/
+    - title: Groups.io
+      path: https://groups.io/g/phoenix-gaming-club
+  footerText: ''
+sections:
+  - name: Charles's Tweets
+    icon: fab fa-twitter
+    widgets:
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/dorktopia_ky?ref_src=twsrc%5Etfw">Tweets
+            by dorktopia_ky</a>
