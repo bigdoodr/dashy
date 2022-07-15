@@ -2,14 +2,13 @@ appConfig:
   theme: fallout
   layout: horizontal
   iconSize: medium
-  startingView: workspace
   language: en
 pageInfo:
   title: Casey's Things
   description: Here's what you think is important!
   navLinks:
-    - title: GitHub
-      path: https://github.com/Lissy93/dashy
+    - title: PGC
+      path: pgc.yml
     - title: Documentation
       path: https://dashy.to/docs
   footerText: ''
@@ -36,10 +35,6 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
-      - type: iframe
-        options:
-          url: https://www.meh.com
-        id: 2_1505_iframe
   - name: Getting Started
     icon: fas fa-rocket
     items:
@@ -102,19 +97,6 @@ sections:
         options:
           url: https://www.catscafecomics.com
         id: 2_1178_iframe
-  - name: Tweets
-    icon: fab fa-twitter
-    widgets:
-      - type: embed
-        updateInterval: 3600
-        options:
-          scriptSrc: https://platform.twitter.com/widgets.js
-          html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500"
-            data-theme="dark"
-            href="https://twitter.com/dorktopia_ky?ref_src=twsrc%5Etfw">Tweets
-            by dorktopia_ky</a>
-        id: 0_636_embed
   - name: Shopping
     icon: fas fa-wallet
     items:
