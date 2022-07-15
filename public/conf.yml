@@ -6,10 +6,10 @@ appConfig:
 pageInfo:
   title: Casey's Things
   description: Here's what you think is important!
-  navLinks:
-    - title: PGC
+  pages:
+    - name: PGC
       path: pgc.yml
-    - title: Documentation
+    - name: Documentation
       path: https://dashy.to/docs
   footerText: ''
 sections:
