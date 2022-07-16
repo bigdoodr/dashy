@@ -7,13 +7,13 @@ pageInfo:
   title: Casey's Things
   description: Here's what you think is important!
   navLinks:
-    - title: PGC
-      path: pgc.yml
-      target: sametab
     - title: Documentation
       path: https://dashy.to/docs
       target: newtab
   footerText: ''
+pages:
+    - name: PGC
+      path: 'pgc.yml'
 sections:
   - name: Today at a Glance
     icon: fas fa-calendar
