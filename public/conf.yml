@@ -90,23 +90,23 @@ sections:
         icon: favicon
         url: https://www.woot.com
         id: 1_840_woot
-      widgets:
-        - type: embed
-          updateInterval: 3600
-          options:
-            scriptSrc: https://platform.twitter.com/widgets.js
-            html: >-
-              <a class="twitter-timeline" data-width="500" data-height="500"
-              data-theme="dark"
-              href="https://twitter.com/wearemeh?ref_src=twsrc%5Etfw">Meh</a>
-        - type: embed
-          updateInterval: 3600
-          options:
-            scriptSrc: https://platform.twitter.com/widgets.js
-            html: >-
-              <a class="twitter-timeline" data-width="500" data-height="500"
-              data-theme="dark"
-              href="https://twitter.com/wootoff?ref_src=twsrc%5Etfw">WootOff Alerts</a>
+    widgets:
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/wearemeh?ref_src=twsrc%5Etfw">Meh</a>
+      - type: embed
+        updateInterval: 36000
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/wootoff?ref_src=twsrc%5Etfw">WootOff Alerts</a>
   - name: Getting Started
     icon: fas fa-rocket
     items:
