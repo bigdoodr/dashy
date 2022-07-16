@@ -6,11 +6,13 @@ appConfig:
 pageInfo:
   title: Casey's Things
   description: Here's what you think is important!
-  pages:
-    - name: PGC
+  navLinks:
+    - title: PGC
       path: pgc.yml
-    - name: Documentation
+      target: sametab
+    - title: Documentation
       path: https://dashy.to/docs
+      target: newtab
   footerText: ''
 sections:
   - name: Today at a Glance
@@ -35,6 +37,76 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
+  - name: Silly Things
+    icon: fas fa-laugh-squint
+    widgets:
+      - type: joke
+        options:
+          safeMode: false
+          language: en
+          category: Pun
+        id: 0_1178_joke
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/calvinandhobbes?ref_src=twsrc%5Etfw">Calvin and Hobbes</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500
+            data-theme="dark"
+            href="https://twitter.com/xkcdtitletext/with_replies?ref_src=twsrc%5Etfw">XKCD with title text</a>
+        id: 1_1178_xkcdcomic
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/catscafecomics?ref_src=twsrc%5Etfw">Cat's Cafe</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/snoopy?ref_src=twsrc%5Etfw">Peanuts</a>
+  - name: Shopping
+    icon: fas fa-wallet
+    items:
+      - title: Google Shopping List
+        icon: favicon
+        url: https://shoppinglist.google.com
+        id: 0_840_googleshoppinglist
+      - title: Woot
+        icon: favicon
+        url: https://www.woot.com
+        id: 1_840_woot
+      widgets:
+        - type: embed
+          updateInterval: 3600
+          options:
+            scriptSrc: https://platform.twitter.com/widgets.js
+            html: >-
+              <a class="twitter-timeline" data-width="500" data-height="500"
+              data-theme="dark"
+              href="https://twitter.com/wearemeh?ref_src=twsrc%5Etfw">Meh</a>
+        - type: embed
+          updateInterval: 3600
+          options:
+            scriptSrc: https://platform.twitter.com/widgets.js
+            html: >-
+              <a class="twitter-timeline" data-width="500" data-height="500"
+              data-theme="dark"
+              href="https://twitter.com/wootoff?ref_src=twsrc%5Etfw">WootOff Alerts</a>
   - name: Getting Started
     icon: fas fa-rocket
     items:
@@ -75,40 +147,3 @@ sections:
         icon: fas fa-bug
         url: https://github.com/Lissy93/dashy/issues
         id: 6_1481_issues
-  - name: Silly Things
-    icon: fas fa-laugh-squint
-    items:
-      - title: Calvin and Hobbes
-        icon: favicon
-        url: https://www.gocomics.com/calvinandhobbes
-        id: 0_1178_calvinandhobbes
-    widgets:
-      - type: joke
-        options:
-          safeMode: false
-          language: en
-          category: Pun
-        id: 0_1178_joke
-      - type: xkcd-comic
-        options:
-          comic: latest
-        id: 1_1178_xkcdcomic
-      - type: iframe
-        options:
-          url: https://www.catscafecomics.com
-        id: 2_1178_iframe
-  - name: Shopping
-    icon: fas fa-wallet
-    items:
-      - title: Google Shopping List
-        icon: favicon
-        url: https://shoppinglist.google.com
-        id: 0_840_googleshoppinglist
-      - title: Woot
-        icon: favicon
-        url: https://www.woot.com
-        id: 1_840_woot
-      - title: meh
-        icon: favicon
-        url: https://www.meh.com
-        id: 2_840_meh
