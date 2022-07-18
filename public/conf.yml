@@ -37,6 +37,65 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
+  - name: News
+    icon: fas fa-news
+    widgets:
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/upfirst?ref_src=twsrc%5Etfw">Up First</a>
+       - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/cityofbgky?ref_src=twsrc%5Etfw">City of BG</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/bgmu?ref_src=twsrc%5Etfw">BGMU</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/potus?ref_src=twsrc%5Etfw">POTUS</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/barackobama?ref_src=twsrc%5Etfw">Obama</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/bgisd?ref_src=twsrc%5Etfw">BGISD</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/mcneilladmirals?ref_src=twsrc%5Etfw">McNeill Elementary</a>
   - name: Silly Things
     icon: fas fa-laugh-squint
     widgets:
