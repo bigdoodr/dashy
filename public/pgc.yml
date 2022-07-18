@@ -9,8 +9,8 @@ pageInfo:
   navLinks:
     - title: Charles's Blog
       path: https://charles-plemons.blog.wku.edu/
-    - title: Blog Search
-      path: https://tssapps.wku.edu/playground/cwp/gms/stats_blog_search.cfm
+    - title: PGC Stats
+      path: https://tssapps.wku.edu/playground/cwp/gms/index.cfm
     - title: Campaign Resources
       path: https://people.wku.edu/charles.plemons/pathfinder/chronoshift/spelljammer/campaign/
     - title: Groups.io
@@ -20,6 +20,9 @@ sections:
   - name: Charles's Tweets
     icon: fab fa-twitter
     widgets:
+      - type: rss-feed
+        options:
+          rssUrl: https://charles-plemons.blog.wku.edu/rss
       - type: embed
         updateInterval: 3600
         options:
