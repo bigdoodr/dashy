@@ -48,7 +48,7 @@ sections:
           <a class="twitter-timeline" data-width="500" data-height="500"
           data-theme="dark"
           href="https://twitter.com/upfirst?ref_src=twsrc%5Etfw">Up First</a>
-       - type: embed
+      - type: embed
         updateInterval: 3600
         options:
           scriptSrc: https://platform.twitter.com/widgets.js
