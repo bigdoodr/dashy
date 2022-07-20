@@ -37,6 +37,7 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
+      - type: apod
   - name: News
     icon: fas fa-news
     widgets:
@@ -47,7 +48,11 @@ sections:
           html: >-
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
-            href="https://twitter.com/upfirst?ref_src=twsrc%5Etfw">Up First</a>
+            href="https://twitter.com/morningedition?ref_src=twsrc%5Etfw">Morning Edition</a>
+      - type: news-headlines
+        options:
+          apiKey: 7svqE3ho5_P3KJC1uJxCl2mdzkMomwIM6sLI8aO4yC3OKH4-
+          category: crap
       - type: embed
         updateInterval: 3600
         options:
