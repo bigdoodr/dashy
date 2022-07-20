@@ -38,7 +38,7 @@ sections:
           hideDetails: false
         id: 1_1505_weather
       - type: apod
-  - name: News
+  - name: Big News
     icon: fas fa-news
     widgets:
       - type: embed
@@ -60,22 +60,6 @@ sections:
           html: >-
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
-            href="https://twitter.com/cityofbgky?ref_src=twsrc%5Etfw">City of BG</a>
-      - type: embed
-        updateInterval: 3600
-        options:
-          scriptSrc: https://platform.twitter.com/widgets.js
-          html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500"
-            data-theme="dark"
-            href="https://twitter.com/bgmu?ref_src=twsrc%5Etfw">BGMU</a>
-      - type: embed
-        updateInterval: 3600
-        options:
-          scriptSrc: https://platform.twitter.com/widgets.js
-          html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500"
-            data-theme="dark"
             href="https://twitter.com/potus?ref_src=twsrc%5Etfw">POTUS</a>
       - type: embed
         updateInterval: 3600
@@ -85,6 +69,28 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/barackobama?ref_src=twsrc%5Etfw">Obama</a>
+  - name: Local News
+    icon: fas fa-news
+    widgets:
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/cityofbgky?ref_src=twsrc%5Etfw">City of BG</a>
+      - type: embed
+        updateInterval: 3600
+        options:
+          scriptSrc: https://platform.twitter.com/widgets.js
+          html: >-
+            <a class="twitter-timeline" data-width="500" data-height="500"
+            data-theme="dark"
+            href="https://twitter.com/bgmu?ref_src=twsrc%5Etfw">BGMU</a>
+  - name: School News
+    icon: fas fa-news
+    widgets:
       - type: embed
         updateInterval: 3600
         options:
@@ -118,6 +124,9 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/calvinandhobbes?ref_src=twsrc%5Etfw">Calvin and Hobbes</a>
+      - type: xkcd-comic
+        options:
+          comic: latest
       - type: embed
         updateInterval: 3600
         options:
