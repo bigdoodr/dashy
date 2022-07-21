@@ -34,6 +34,8 @@ sections:
         description: This will put a Mac in Mosyle without making any noticeable changes to the user
         icon: fas fa-user-plus
         url: https://join.mosyle.com/PTQO13
+  - name: Info
+    icon: fas fa-newspaper
     widgets:
       - type: public-holidays
         options:
