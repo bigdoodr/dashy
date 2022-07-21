@@ -1,6 +1,7 @@
 appConfig:
-  theme: fallout
+  theme: one-dark
   layout: horizontal
+  startingView: minimal
   iconSize: medium
   language: en
 pageInfo:
@@ -37,9 +38,21 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
+  - name: IotD
+    icon: fas fa-camera
+    widgets:
       - type: apod
+      - type: image
+        options:
+          imagePath: https://source.unsplash.com/random
+      - type: image
+        options:
+          imagePath: https://picsum.photos/3840/2160
+      - type: image
+        options:
+          imagePath: https://cdn.jsdelivr.net/gh/WangNingkai/BingImageApi@latest/images/latest.png
   - name: Big News
-    icon: fas fa-news
+    icon: fas fa-newspaper
     widgets:
       - type: embed
         updateInterval: 3600
@@ -49,10 +62,6 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/morningedition?ref_src=twsrc%5Etfw">Morning Edition</a>
-      - type: news-headlines
-        options:
-          apiKey: 7svqE3ho5_P3KJC1uJxCl2mdzkMomwIM6sLI8aO4yC3OKH4-
-          category: crap
       - type: embed
         updateInterval: 3600
         options:
@@ -69,8 +78,14 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/barackobama?ref_src=twsrc%5Etfw">Obama</a>
+      - type: news-headlines
+        options:
+          apiKey: 7svqE3ho5_P3KJC1uJxCl2mdzkMomwIM6sLI8aO4yC3OKH4-
+          category: crap
+          count: 5
+          hideImages: true
   - name: Local News
-    icon: fas fa-news
+    icon: fas fa-city
     widgets:
       - type: embed
         updateInterval: 3600
@@ -89,7 +104,7 @@ sections:
             data-theme="dark"
             href="https://twitter.com/bgmu?ref_src=twsrc%5Etfw">BGMU</a>
   - name: School News
-    icon: fas fa-news
+    icon: fas fa-school
     widgets:
       - type: embed
         updateInterval: 3600
@@ -109,6 +124,10 @@ sections:
             href="https://twitter.com/mcneilladmirals?ref_src=twsrc%5Etfw">McNeill Elementary</a>
   - name: Silly Things
     icon: fas fa-laugh-squint
+    items:
+      - title: XKCD
+        icon: https://xkcd.com/favicon.ico
+        url: https://m.xkcd.com
     widgets:
       - type: joke
         options:
@@ -124,18 +143,6 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/calvinandhobbes?ref_src=twsrc%5Etfw">Calvin and Hobbes</a>
-      - type: xkcd-comic
-        options:
-          comic: latest
-      - type: embed
-        updateInterval: 3600
-        options:
-          scriptSrc: https://platform.twitter.com/widgets.js
-          html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500
-            data-theme="dark"
-            href="https://twitter.com/xkcdtitletext/with_replies?ref_src=twsrc%5Etfw">XKCD with title text</a>
-        id: 1_1178_xkcdcomic
       - type: embed
         updateInterval: 3600
         options:
