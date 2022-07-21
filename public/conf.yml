@@ -1,7 +1,7 @@
 appConfig:
   theme: one-dark
   layout: horizontal
-  startingView: minimal
+  startingView: workspace
   iconSize: medium
   language: en
 pageInfo:
@@ -21,6 +21,7 @@ sections:
     items:
       - title: Nest Renew
         icon: fab fa-google
+        target: newtab
         url: >-
           https://nestrenew.google.com/u/0/renew/portal/ad28379b-1ffc-4711-be75-e12f850c8a5c
         id: 0_1505_nestrenew
@@ -38,6 +39,12 @@ sections:
           units: imperial
           hideDetails: false
         id: 1_1505_weather
+      - type: weather-forecast
+        options:
+          apiKey: 90cc9f06bc4e014c4027ffccfc58f6d7
+          city: Eastland Park, US
+          numDays: 4
+          units: imperial
   - name: IotD
     icon: fas fa-camera
     widgets:
@@ -164,10 +171,12 @@ sections:
     items:
       - title: Google Shopping List
         icon: favicon
+        target: newtab
         url: https://shoppinglist.google.com
         id: 0_840_googleshoppinglist
       - title: Woot
         icon: favicon
+        target: newtab
         url: https://www.woot.com
         id: 1_840_woot
     widgets:
