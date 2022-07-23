@@ -3,6 +3,7 @@
 pageInfo:
   title: Apple Influencers
   description: The latest tweets, blogs, etc. from the industry pacesetters
+  logo: http://cdn.redmondpie.com/wp-content/uploads/2012/01/Logo_Apple.jpg
   navLinks:
   - title: Home
     path: /
@@ -45,14 +46,113 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://scriptingosx.com/feed/
-- name: Big News
-  icon: fas fa-newspaper
+- name: Mr Macintosh
+  icon: fas fa-twitter
   widgets:
     - type: embed
       updateInterval: 3600
       options:
         scriptSrc: https://platform.twitter.com/widgets.js
         html: >-
-          <a class="twitter-timeline" data-width="500" data-height="500"
-          data-theme="dark"
-          href="https://twitter.com/morningedition?ref_src=twsrc%5Etfw">Morning Edition</a>
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/ClassicII_MrMac?ref_src=twsrc%5Etfw">Mr Macintosh</a>
+- name: Graham Pugh
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/GrahamRPugh?ref_src=twsrc%5Etfw">Graham Pugh</a>
+- name: Greg Neagle
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/Cgregneagle?ref_src=twsrc%5Etfw">Greg Neagle</a>
+- name: MacAdminsConference
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/macadminsconf?ref_src=twsrc%5Etfw">MacAdminsConference</a>
+- name: ScriptingOSX
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/scriptingosx?ref_src=twsrc%5Etfw">ScriptingOSX</a>
+- name: Rich Trouton
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/rtrouton?ref_src=twsrc%5Etfw">Rich Trouton</a>
+- name: Tim Perfitt
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/tperfitt?ref_src=twsrc%5Etfw">Tim Perfitt</a>
+- name: Rusty Myers
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/thespider?ref_src=twsrc%5Etfw">Rusty Myers</a>
+- name: MacRumorsLive
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/macrumorslive?ref_src=twsrc%5Etfw">MacRumorsLive</a>
+- name: Graham Gilbert
+  icon: fas fa-twitter
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+        <a class="twitter-timeline" data-height="500"
+        data-theme="dark"
+        href="https://twitter.com/grahamgilber?ref_src=twsrc%5Etfw">Graham Gilbert</a>
