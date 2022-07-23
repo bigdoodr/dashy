@@ -57,36 +57,3 @@ sections:
         <a class="twitter-timeline" data-height="500"
         data-theme="dark"
         href="https://twitter.com/ClassicII_MrMac?ref_src=twsrc%5Etfw">Mr Macintosh</a>
-- name: Graham Pugh
-  icon: fas fa-twitter
-  widgets:
-    - type: embed
-      updateInterval: 3600
-      options:
-        scriptSrc: https://platform.twitter.com/widgets.js
-        html: >-
-        <a class="twitter-timeline" data-height="500"
-        data-theme="dark"
-        href="https://twitter.com/GrahamRPugh?ref_src=twsrc%5Etfw">Graham Pugh</a>
-- name: Greg Neagle
-  icon: fas fa-twitter
-  widgets:
-    - type: embed
-      updateInterval: 3600
-      options:
-        scriptSrc: https://platform.twitter.com/widgets.js
-        html: >-
-        <a class="twitter-timeline" data-height="500"
-        data-theme="dark"
-        href="https://twitter.com/Cgregneagle?ref_src=twsrc%5Etfw">Greg Neagle</a>
-- name: MacAdminsConference
-  icon: fas fa-twitter
-  widgets:
-    - type: embed
-      updateInterval: 3600
-      options:
-        scriptSrc: https://platform.twitter.com/widgets.js
-        html: >-
-        <a class="twitter-timeline" data-height="500"
-        data-theme="dark"
-        href="https://twitter.com/macadminsconf?ref_src=twsrc%5Etfw">MacAdminsConference</a>
