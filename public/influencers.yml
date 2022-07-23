@@ -46,14 +46,14 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://scriptingosx.com/feed/
-- name: Mr Macintosh
-  icon: fas fa-twitter
+- name: Rusty Myers
+  icon: fas fa-newspaper
   widgets:
     - type: embed
       updateInterval: 3600
       options:
         scriptSrc: https://platform.twitter.com/widgets.js
         html: >-
-        <a class="twitter-timeline" data-height="500"
-        data-theme="dark"
-        href="https://twitter.com/ClassicII_MrMac?ref_src=twsrc%5Etfw">Mr Macintosh</a>
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/thespider?ref_src=twsrc%5Etfw">Rusty Myers</a>
