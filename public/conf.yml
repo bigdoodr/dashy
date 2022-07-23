@@ -42,7 +42,6 @@ sections:
           country: US
           holidayType: all
           monthsToShow: 12
-      - type: cve-vulnerabilites
 pages:
 - name: Apple Influencers
   path: 'influencers.yml'
