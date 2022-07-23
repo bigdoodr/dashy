@@ -27,7 +27,7 @@ sections:
         icon: fas fa-cloud
         url: https://macs.wku.edu/odss.zip
       - title: Office Reset Utility
-        icon: fas fa-rotate-left
+        icon: fas fa-reply
         target: newtab
         url: https://office-reset.com/
       - title: Self-Enroll
@@ -43,10 +43,6 @@ sections:
           holidayType: all
           monthsToShow: 12
       - type: cve-vulnerabilites
-        options:
-          vendorId: 26
-          sortBy: publish-date
-          limit: 10
 pages:
 - name: Apple Influencers
   path: 'influencers.yml'
