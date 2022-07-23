@@ -45,3 +45,14 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://scriptingosx.com/feed/
+- name: Big News
+  icon: fas fa-newspaper
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/morningedition?ref_src=twsrc%5Etfw">Morning Edition</a>
