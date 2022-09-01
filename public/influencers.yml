@@ -3,7 +3,6 @@
 pageInfo:
   title: Apple Influencers
   description: The latest tweets, blogs, etc. from the industry pacesetters
-  logo: http://cdn.redmondpie.com/wp-content/uploads/2012/01/Logo_Apple.jpg
   navLinks:
   - title: Home
     path: /
@@ -11,41 +10,11 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: one-dark
-  layout: horizontal
+  layout: auto
   startingView: workspace
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: EclecticLight RSS
-  icon: https://eclecticlightdotcom.files.wordpress.com/2015/01/eclecticlightlogo-e1421784280911.png?w=103
-  widgets:
-  - type: rss-feed
-    options:
-      rssUrl: https://eclecticlight.co/category/macs/feed/
-- name: AppleShare RSS
-  icon: https://appleshare.it/favicon.ico
-  widgets:
-  - type: rss-feed
-    options:
-      rssUrl: https://appleshare.it/index.xml
-- name: AppleAtWork RSS
-  icon: https://9to5mac.com/favicon.ico
-  widgets:
-  - type: rss-feed
-    options:
-      rssUrl: https://9to5mac.com/guides/apple-at-work/feed/
-- name: Tom Bridge Posts
-  icon: https://s0.wp.com/i/favicon.ico
-  widgets:
-  - type: rss-feed
-    options:
-      rssUrl: https://tombridge.com/feed/
-- name: ScriptingOSX RSS
-  icon: https://i0.wp.com/scriptingosx.com/wp-content/uploads/2019/11/cropped-NewShebang-1.png
-  widgets:
-  - type: rss-feed
-    options:
-      rssUrl: https://scriptingosx.com/feed/
 - name: Rusty Myers
   icon: fas fa-newspaper
   widgets:
@@ -57,3 +26,77 @@ sections:
           <a class="twitter-timeline" data-width="500" data-height="500"
           data-theme="dark"
           href="https://twitter.com/thespider?ref_src=twsrc%5Etfw">Rusty Myers</a>
+- name: EclecticLight RSS
+  icon: https://eclecticlightdotcom.files.wordpress.com/2015/01/eclecticlightlogo-e1421784280911.png?w=103
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://eclecticlight.co/category/macs/feed/
+- name: MacRumors Live
+  icon: fas fa-newspaper
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/macrumorslive?ref_src=twsrc%5Etfw">MacRumors Live</a>
+- name: AppleShare RSS
+  icon: https://appleshare.it/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://appleshare.it/index.xml
+- name: Tim Perfitt
+  icon: fas fa-newspaper
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/tperfitt?ref_src=twsrc%5Etfw">Tim Perfitt</a>
+- name: AppleAtWork RSS
+  icon: https://9to5mac.com/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://9to5mac.com/guides/apple-at-work/feed/
+- name: Mr. Macintosh
+  icon: fas fa-newspaper
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/ClassicII_MrMac?ref_src=twsrc%5Etfw">Mr. Macintosh</a>
+- name: Tom Bridge Posts
+  icon: https://s0.wp.com/i/favicon.ico
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://tombridge.com/feed/
+- name: Rich Trouton
+  icon: fas fa-newspaper
+  widgets:
+    - type: embed
+      updateInterval: 3600
+      options:
+        scriptSrc: https://platform.twitter.com/widgets.js
+        html: >-
+          <a class="twitter-timeline" data-width="500" data-height="500"
+          data-theme="dark"
+          href="https://twitter.com/rtrouton?ref_src=twsrc%5Etfw">Rich Trouton</a>
+- name: ScriptingOSX RSS
+  icon: https://i0.wp.com/scriptingosx.com/wp-content/uploads/2019/11/cropped-NewShebang-1.png
+  widgets:
+  - type: rss-feed
+    options:
+      rssUrl: https://scriptingosx.com/feed/
