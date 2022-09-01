@@ -1,6 +1,6 @@
 appConfig:
   theme: one-dark
-  layout: horizontal
+  layout: auto
   iconSize: medium
   language: en
 pageInfo:
@@ -24,6 +24,7 @@ sections:
         url: https://join.mosyle.com/NQCXSZ
         target: newtab
       - title: OneDrive Scripts
+        description: In case the OneDrive Customizer app isn't your fancy.
         icon: fas fa-cloud
         url: https://macs.wku.edu/odss.zip
       - title: Office Reset Utility
@@ -34,14 +35,25 @@ sections:
         description: This will put a Mac in Mosyle without making any noticeable changes to the user
         icon: fas fa-user-plus
         url: https://join.mosyle.com/PTQO13
-  - name: Info
-    icon: fas fa-newspaper
+      - title: Self-Service App
+        description: In case a Mac is already enrolled but doesn't have the Self-Service app, or isn't responding to push commands from Mosyle.
+        icon: https://macs.wku.edu/assets/img/self-service.png
+        url: https://macs.wku.edu/Business-6.8.1_b67-production.pkg
+      - title: First Run Zip
+        description: In case something interrupts the First Run command from Mosyle, this can be downloaded and ran manually. Instructions included, but most likely outdated.
+        icon: https://macs.wku.edu/assets/img/wku.png
+        url: https://macs.wku.edu/firstrun.zip
+      - title: Microsoft Mac Downloads
+        description: Install the non-App Store version of any of the Office suite apps
+        icon: https://macadmins.software/icons/suite.png
+        url: https://macadmins.software/
+  - name: WKU Holidays
+    icon: fas fa-calendar
     widgets:
-      - type: public-holidays
+      - type: iframe
         options:
-          country: US
-          holidayType: all
-          monthsToShow: 12
+          url: https://www.wku.edu/hr/tools/holidays.php
+          frameHeight: 1000
 pages:
 - name: Apple Influencers
   path: 'influencers.yml'
