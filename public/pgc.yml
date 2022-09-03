@@ -17,12 +17,15 @@ pageInfo:
       path: https://groups.io/g/phoenix-gaming-club
   footerText: ''
 sections:
-  - name: Charles's Tweets
-    icon: fab fa-twitter
+  - name: Charles's Blog
+    icon: fab fa-rss
     widgets:
       - type: rss-feed
         options:
           rssUrl: https://charles-plemons.blog.wku.edu/rss
+  - name: Charles's Tweets
+    icon: fab fa-twitter
+    widgets:
       - type: embed
         updateInterval: 3600
         options:
