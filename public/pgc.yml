@@ -1,6 +1,5 @@
 appConfig:
   theme: fallout
-  layout: horizontal
   iconSize: medium
   language: en
 pageInfo:
@@ -18,13 +17,13 @@ pageInfo:
   footerText: ''
 sections:
   - name: Charles's Blog
-    icon: fab fa-rss
+    icon: fas fa-rss
     widgets:
       - type: rss-feed
         options:
           rssUrl: https://charles-plemons.blog.wku.edu/rss
   - name: Charles's Tweets
-    icon: fab fa-twitter
+    icon: fas fa-twitter
     widgets:
       - type: embed
         updateInterval: 3600
