@@ -170,6 +170,12 @@ sections:
             <a class="twitter-timeline" data-width="500" data-height="500"
             data-theme="dark"
             href="https://twitter.com/mcneilladmirals?ref_src=twsrc%5Etfw">McNeill Elementary</a>
+  - name: Your Local Epidemiologist
+    icon: fas fa-syringe
+    widgets:
+      - type: rss-feed
+        options:
+          rssUrl: https://yourlocalepidemiologist.substack.com/feed
   - name: Getting Started
     icon: fas fa-rocket
     items:
