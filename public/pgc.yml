@@ -23,7 +23,7 @@ sections:
         options:
           rssUrl: https://charles-plemons.blog.wku.edu/rss
   - name: Charles's Tweets
-    icon: fas fa-twitter
+    icon: fab fa-twitter
     widgets:
       - type: embed
         updateInterval: 3600
