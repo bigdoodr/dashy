@@ -11,9 +11,7 @@ pageInfo:
 appConfig:
   theme: one-dark
   layout: horizontal
-  startingView: default
-  colCount: 1
-  workspaceLandingURL: https://macs.wku.edu/appleinfluencers.html
+  iconSize: large
 
 # Main content - An array of sections, each containing an array of items
 sections:
@@ -23,7 +21,7 @@ sections:
     - type: iframe
       options:
         url: https://macs.wku.edu/appleinfluencers.html
-        frameheight: 500
+        frameHeight: 750
 - name: EclecticLight RSS
   icon: https://eclecticlightdotcom.files.wordpress.com/2015/01/eclecticlightlogo-e1421784280911.png?w=103
   widgets:
