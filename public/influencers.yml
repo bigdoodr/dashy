@@ -10,17 +10,20 @@ pageInfo:
 # Optional app settings and configuration
 appConfig:
   theme: one-dark
-  layout: auto
-  startingView: workspace
+  layout: horizontal
+  startingView: default
+  colCount: 1
+  workspaceLandingURL: https://macs.wku.edu/appleinfluencers.html
 
 # Main content - An array of sections, each containing an array of items
 sections:
-- name: Rusty Myers
-  icon: fas fa-newspaper
+- name: Influencer Tweets
+  icon: fab fa-twitter
   widgets:
     - type: iframe
       options:
         url: https://macs.wku.edu/appleinfluencers.html
+        frameheight: 500
 - name: EclecticLight RSS
   icon: https://eclecticlightdotcom.files.wordpress.com/2015/01/eclecticlightlogo-e1421784280911.png?w=103
   widgets:
