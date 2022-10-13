@@ -9,6 +9,9 @@ pageInfo:
     - title: Documentation
       path: https://dashy.to/docs
       target: newtab
+    - title: Twitter Feeds
+      path: https://pages.scruggsfam.rock/twitterfeeds.html
+      target: newtab
   footerText: ''
 pages:
     - name: PGC
@@ -28,7 +31,7 @@ sections:
     widgets:
       - type: iframe
         options:
-          url: https://comics.scruggsfam.rocks
+          url: https://pages.scruggsfam.rocks/webcomics.html
   - name: Shopping
     icon: fas fa-wallet
     items:
@@ -55,24 +58,6 @@ sections:
       - type: image
         options:
           imagePath: https://cdn.jsdelivr.net/gh/WangNingkai/BingImageApi@latest/images/latest.png
-  - name: Big News
-    icon: fas fa-newspaper
-    widgets:
-      - type: iframe
-        options:
-          url: https://news.google.com
-  - name: Local News
-    icon: fas fa-city
-    widgets:
-      - type: iframe
-        options:
-          url: https://www.wbko.com
-  - name: School News
-    icon: fas fa-school
-    widgets:
-      - type: iframe
-        options:
-          url: https://www.bgreen.kyschools.us/view-all-news
   - name: Your Local Epidemiologist
     icon: fas fa-syringe
     widgets:
