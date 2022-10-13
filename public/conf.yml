@@ -1,6 +1,7 @@
 appConfig:
   theme: one-dark
-  iconSize: medium
+  iconSize: large
+  layout: horizontal
   language: en
 pageInfo:
   title: Casey's Things
@@ -10,7 +11,7 @@ pageInfo:
       path: https://dashy.to/docs
       target: newtab
     - title: Twitter Feeds
-      path: https://pages.scruggsfam.rock/twitterfeeds.html
+      path: https://pages.scruggsfam.rocks/twitterfeeds.html
       target: newtab
   footerText: ''
 pages:
