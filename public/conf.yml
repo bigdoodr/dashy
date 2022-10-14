@@ -33,7 +33,7 @@ sections:
       - type: iframe
         options:
           url: https://pages.scruggsfam.rocks/webcomics.html
-          frameHeight: 1000
+          frameHeight: 750
   - name: Shopping
     icon: fas fa-wallet
     items:
