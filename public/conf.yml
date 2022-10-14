@@ -19,6 +19,7 @@ sections:
     icon: fas fa-exclamation
     items:
       - title: Prep Macs KB
+        description: Step-by-step guide
         icon: fab fa-apple
         target: newtab
         url: https://td.wku.edu/TDClient/34/Portal/KB/ArticleDet?ID=2239
@@ -40,14 +41,14 @@ sections:
         icon: fas fa-user-plus
         url: https://join.mosyle.com/PTQO13
       - title: Self-Service App
-        description: In case a Mac is already enrolled but doesn't have the Self-Service app, or isn't responding to push commands from Mosyle.
+        description: If a Mac is already enrolled but doesn't have the app, or isn't responding to commands from Mosyle.
         icon: https://macs.wku.edu/assets/img/self-service.png
         url: https://macs.wku.edu/Business-6.8.1_b67-production.pkg
       - title: First Run Zip
-        description: In case something interrupts the First Run command from Mosyle, this can be downloaded and ran manually. Instructions included, but most likely outdated.
+        description: If the First Run fails, this can be downloaded and ran manually. Instructions included, but most likely outdated.
         icon: https://macs.wku.edu/assets/img/wku.png
         url: https://macs.wku.edu/firstrun.zip
-      - title: Microsoft Mac Downloads
+      - title: Office Mac Downloads
         description: Install the non-App Store version of any of the Office suite apps
         icon: https://macadmins.software/icons/suite.png
         url: https://macadmins.software/
