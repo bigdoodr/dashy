@@ -12,6 +12,8 @@ pageInfo:
       path: https://tssapps.wku.edu/playground/cwp/gms/index.cfm
     - title: Campaign Resources
       path: https://people.wku.edu/charles.plemons/pathfinder/chronoshift/spelljammer/campaign/
+    - title: Campaign Rules
+      path: https://people.wku.edu/charles.plemons/pathfinder/chronoshift/spelljammer/
     - title: Groups.io
       path: https://groups.io/g/phoenix-gaming-club
   footerText: ''
@@ -25,12 +27,6 @@ sections:
   - name: Charles's Tweets
     icon: fab fa-twitter
     widgets:
-      - type: embed
-        updateInterval: 3600
+      - type: iframe
         options:
-          scriptSrc: https://platform.twitter.com/widgets.js
-          html: >-
-            <a class="twitter-timeline" data-width="500" data-height="500"
-            data-theme="dark"
-            href="https://twitter.com/dorktopia_ky?ref_src=twsrc%5Etfw">Tweets
-            by dorktopia_ky</a>
+          url: http://pages.scruggsfam.rocks/pgctweets.html
