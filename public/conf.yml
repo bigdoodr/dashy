@@ -58,6 +58,13 @@ sections:
         options:
           url: https://www.wku.edu/hr/tools/holidays.php
           frameHeight: 1000
+  - name: Today@WKU
+    icon: far fa-newspaper
+    widgets:
+      - type: iframe
+        options:
+          url: https://www.wku.edu/news/newsletter-archive.php
+          frameHeight: 1000
 pages:
 - name: Influencer 📰 Feeds
   path: 'influencers.yml'
