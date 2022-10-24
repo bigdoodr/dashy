@@ -28,12 +28,12 @@ sections:
   - type: rss-feed
     options:
       rssUrl: https://eclecticlight.co/category/macs/feed/
-- name: AppleShare RSS
-  icon: https://appleshare.it/favicon.ico
+- name: MacAdmin Blog
+  icon: https://blog.macadmin.me/favicon.ico
   widgets:
   - type: rss-feed
     options:
-      rssUrl: https://appleshare.it/index.xml
+      rssUrl: https://blog.macadmin.me/index.xml
 - name: AppleAtWork RSS
   icon: https://9to5mac.com/favicon.ico
   widgets:
